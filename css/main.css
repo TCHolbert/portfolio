@@ -1,0 +1,628 @@
+/******Title: Tina C Holbert | Portfolio*******/
+
+/***** BASE STYLES *****/
+body{
+	font-family: 'Merienda', cursive;
+	font-family: 'Kalam', cursive;
+	font-family: 'Taviraj', serif;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 12px;
+}
+@meta charset="UTF-8";
+
+/**Mobile First**/
+
+@media(min-width:300px)
+{
+
+/***** GRID *****/
+
+.full-width {
+	width: 100%;
+	margin:0 auto; 
+}
+.half-width {
+	width: 100%;
+}
+.third-width {
+	width: 100%;
+	float: left;
+}
+.fourth-width {
+	width: 100%;
+	float: right;
+}
+#about, #skills, #work {
+	height: 600px;
+	overflow: hidden;
+}
+#contact {
+	height: 330px;
+	overflow: hidden;
+}
+
+/***** HEADER *****/
+header{
+	height: 570px;
+	background: url('../img/background.png');
+	background-size: cover;
+}
+header h1 {
+	font-family: 'Merienda', cursive;
+	font-size: 3.25em;
+	color: #4b3a51;
+	text-align: center;
+	padding: 50px 0 0 0;
+}
+header h4 {
+	font-family: 'Merienda', cursive;
+	font-size: 1.5em;
+	color: #4b3a51;
+	padding: 0 10px 0 10px;
+}
+#engineer {
+	text-align: left;
+}
+#frontEnd {
+	text-align: center;
+}
+#excel {
+	text-align: right;
+}
+nav {
+	/*float: right;*/
+	/*padding: 75px 40px;*/
+	
+}
+nav ul li {
+	/*display: inline-block;*/
+     padding: 10px 50px 10px 10px;
+     text-align: center;
+	list-style-type: none;
+}
+nav ul li a{
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #a77a4b;
+	font-size: 2em;
+
+}
+ul li a{
+	font-family: 'Taviraj', serif;
+	text-decoration: none;
+	font-size: 1em;
+	color: #722d24;	
+}
+
+a:hover {
+	display: block;
+	background-color: #f2d8c0;
+}
+
+
+
+/***** ABOUT *****/
+
+#about {
+	background-color:#f2d8c0;
+}
+#about .full-width { 
+	padding: 0px 0 0 0;
+}
+#about h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 2em;
+	padding: 20px 0px 0 10px;
+	color: #4b3a51;
+}
+#about p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 1.5em;
+	padding: 0 10px 0 10px;
+	line-height: 1.5em;
+	color: #722d24;
+}
+#about img {
+	display: block;
+     	margin: auto;
+     	width: 65%;
+	position: center;	
+}
+
+/***** SKILLS *****/
+
+#skills {
+	background-color: #a43020;
+}
+#skills h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 2em;
+	padding: 20px 0 0px 10px;
+	color: #4b3a51;
+}
+#skills h3 {
+	color: #f2d8c0;
+	font-size: 1.25em;
+	padding: 0 0 0 10px;
+}
+#skills p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	color: #f2d8c0;
+	padding: 0 10px 0 10px;
+	text-align: center;
+}
+#skills img {
+	display: block;
+	margin: auto;
+	width: 2.5em;
+	position: center;
+}
+/***** WORK *****/
+
+#work {
+	background-color:#f2d8c0;
+}
+#work .full-width { 
+	padding: 0px 0 0 0;
+}
+#work h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 2em;
+	padding: 20px 0px 0 10px;
+	color: #4b3a51;
+}
+#work h3 {
+	color: #a43020;
+	font-size: 1.25em;
+	padding: 0 0 0 10px;
+	text-decoration: none;
+}
+#work img {
+	display: block;
+	margin: auto;
+	width: 3.75em;
+	position: center;	
+}
+#work a {
+	display: block;
+	margin: auto;
+	width: 4em;
+	position: center;	
+}
+#work p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 1.5em;
+	padding: 0 10px 0 10px;
+	line-height: 1em;
+	color: #722d24;
+	text-align: center;
+	text-decoration: none;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background-color: #a43020;
+}
+#contact .full-width { 
+	padding: 0px 0 0 0;
+}
+#contact h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 2em;
+	padding: 20px 0px 0 10px;
+	color: #4b3a51;
+}
+#contact h3 {
+	color: #f2d8c0;
+	font-size: 1.25em;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+#contact img {
+	display: block;
+	margin: auto;
+	width: 3em;
+	position: center;	
+}
+#contact a {
+	display: block;
+	margin: auto;
+	width: 4em;
+	position: center;
+}	
+
+}
+
+/*--Tablet Second--*/
+
+@media(min-width: 765px)
+{
+
+/***** GRID *****/
+
+.full-width {
+	width: 100%;
+	margin: 0 auto; 
+}
+.half-width {
+	width: 50%;
+	float: left;
+}
+.third-width {
+	width: 33.33%;
+	float: left;
+}
+.fourth-width {
+	width: 25%;
+	float: right;
+}
+#about, #skills, #work {
+	height: 600px;
+}
+#contact {
+	height: 330px;
+}
+
+/***** HEADER *****/
+header{
+	height: 800px;
+	background: url('../img/background.png');
+	background-size: cover;
+}
+header h1 {
+	padding: 100px 0 0 20px;
+	font-family: 'Merienda', cursive;
+	font-size: 4em;
+	color: #4b3a51;
+}
+#engineer, #frontEnd, #excel {
+	text-align: right;
+	font-size: 2em;
+	padding-top: 50px;
+}
+nav {
+	float: right;
+	padding: 300px 40px;
+}
+
+nav ul li a{
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #a77a4b;
+	font-size: 1.5em;
+}
+
+a:hover {
+	display: block;
+	background-color: #f2d8c0;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+	background-color:#f2d8c0;
+}
+#about .full-width { 
+	padding: 10px 0 0 0;
+}
+#about h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 3em;
+	padding: 10px 0 0 20px;
+	color: #4b3a51;
+}
+#about p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 2em;
+	padding: 0px 0px 0 20px;
+	line-height: 1.25em;
+	color: #722d24;
+}
+#about img {
+	display: block;
+	position: center;
+	width: 75%;	
+}
+
+
+/***** SKILLS *****/
+
+#skills {
+	background-color: #a43020;
+}
+#skills h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 3em;
+	padding: 10px 0 0 20px;
+	color: #4b3a51;
+}
+#skills img {
+	display: block;
+	margin: auto;
+	width: 3em;
+	position: center;
+}
+#skills h3 {
+	color: #f2d8c0;
+	font-size: 2em;
+	text-align: center;
+	padding: 50px;
+}
+#skills p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: #f2d8c0;
+	padding: 0 1em 0 1em;
+}
+/***** WORK *****/
+
+#work {
+	background-color:#f2d8c0;
+}
+#work .full-width { 
+	padding: 0px 0 0 0;
+}
+#work h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 3em;
+	padding: 10px 0px 0 20px;
+	color: #4b3a51;
+}
+#work h3 {
+	color: #a43020;
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px;
+}
+#work a {
+	margin: auto;
+	width: 75%;
+	position: center;	
+}
+#work a img {
+	margin: auto;
+	width: 80%;
+	position: center;	
+}
+#work p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 2em;
+	padding: 10px 20px 0 20px;
+	line-height: 1.5em;
+	color: #722d24;
+	text-align: center;
+	text-decoration: none;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background-color: #a43020;
+}
+#contact .full-width { 
+	padding: 0px 0 0 0;
+}
+#contact h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 3em;
+	padding: 10px 0px 0 20px;
+	color: #4b3a51;
+}
+#contact h3 {
+	color: #f2d8c0;
+	font-size: 2em;
+	padding: 0px 10px 0px 40px;
+	text-decoration: none;
+}
+#email-header img {
+	width: 2em;
+}
+#socialmedia-header img {
+	width: 2em;
+}
+}
+/*--Desktop Third--*/
+
+@media(min-width: 1200px)
+{
+/***** GRID *****/
+
+.full-width {
+	width: 100%;
+	margin: 0 auto; 
+}
+.half-width {
+	width: 50%;
+	float: left;
+}
+.third-width {
+	width: 33.33%;
+	float: left;
+}
+.fourth-width {
+	width: 25%;
+	float: right;
+}
+#about, #skills, #work {
+	height: 600px;
+}
+#contact {
+	height: 330px;
+}
+
+/***** HEADER *****/
+header{
+	height: 800px;
+	background: url('../img/background.png');
+	background-size: cover;
+}
+header h1 {
+	padding: 60px 0 0 60px;
+	font-family: 'Merienda', sans-serif;
+	font-size: 5em;
+	color: #4b3a51;
+}
+header h4 {
+	font-size: 3.5em;
+	padding: 20px 0 0 30px;
+}
+#frontEnd {
+	text-align: center;
+}
+#excel {
+	text-align: left;
+}
+nav {
+	float: right;
+	padding: 210px 0px 0 0px;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a{
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #a77a4b;
+	font-size: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+a:hover {
+	display: block;
+	background-color: #f2d8c0;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+	background-color:#f2d8c0;
+}
+#about .full-width { 
+	padding: 10px 0 0 0;
+}
+#about h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 4em;
+	padding: 0px 0 0 60px;
+	color: #4b3a51;
+}
+#about p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 2em;
+	padding: 40px 60px 0 180px;
+	color: #722d24;
+}
+#about img {
+	position: center;
+	width: 50%;	
+}
+
+
+/***** SKILLS *****/
+
+#skills {
+	background-color: #a43020;
+}
+#skills h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 4em;
+	padding: 0px 0 0 60px;
+	color: #4b3a51;
+}
+#skills img {
+	display: block;
+	margin: auto;
+	width: 5.5em;
+	position: center;
+}
+#skills h3 {
+	color: #f2d8c0;
+	font-size: 2.5em;
+}
+#skills p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 2em;
+	color: #f2d8c0;
+}
+
+/***** WORK *****/
+
+#work {
+	background-color:#f2d8c0;
+}
+#work .full-width { 
+	padding: 0px 0 0 0;
+}
+#work h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 4em;
+	padding: 0px 0px 0 60px;
+	color: #4b3a51;
+}
+#work h3 {
+	color: #a43020;
+	font-size: 1.25em;
+	padding: 0 0 0 10px;
+	text-decoration: none;
+}
+#work img {
+	display: block;
+	margin: auto;
+	width: 50%;
+	position: center;	
+}
+#work a {
+	display: block;
+	margin: auto;
+	width: 50%;
+	position: center;	
+}
+#work p {
+	font-family: 'Kalam', sans-serif;
+	font-size: 2em;
+	padding: 0 10px 0 10px;
+	color: #722d24;
+	text-align: center;
+	text-decoration: none;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background-color: #a43020;
+}
+#contact .full-width { 
+	padding: 0px 0 0 0;
+}
+#contact h2 {
+	font-family: 'Merienda', sans-serif;
+	font-size: 4em;
+	padding: 0px 0px 0 60px;
+	color: #4b3a51;
+}
+#contact h3 {
+	color: #f2d8c0;
+	font-size: 2em;
+	padding: 0px 20px 0px 100px;
+	text-decoration: none;
+}
+/*#contact img {
+	width: 3em;
+}
+#contact a {
+	width: 3em;
+}*/	
+
+}
+
